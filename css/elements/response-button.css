@@ -1,0 +1,8 @@
+.response-button {
+    color: white;
+    background-color: var(--Red-keyToogle);
+    border-bottom: 4px solid var(--Dark-red-keyShadow);
+    font-size: 0.7rem;
+    grid-column: 3 / 5;
+    width: 100%;
+}

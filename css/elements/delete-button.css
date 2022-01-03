@@ -1,0 +1,6 @@
+.delete-button {
+    color: white;
+    background-color: var(--Desaturated-dark-blue-key);
+    border-bottom: 4px solid var(--Desaturated-dark-blue-keyShadow);
+    font-size: 0.5rem;
+}

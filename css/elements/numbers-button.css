@@ -1,0 +1,5 @@
+.numbers-button {
+    color: var(--Very-dark-grayish-blue);
+    background-color: var(--Light-grayish-orange-key);
+    border-bottom: 4px solid var(--Grayish-orange-keyShadow);
+}
