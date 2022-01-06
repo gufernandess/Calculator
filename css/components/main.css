@@ -24,6 +24,40 @@ main div {
 
 .themes p { color: white; font-size: 1rem; }
 
+@keyframes slide-to-center {
+    from { justify-content: flex-start; }
+    to { justify-content: center; padding-left: 0px;}
+}
+
+@keyframes slide-to-right {
+    from { justify-content: center; }
+    to { justify-content: flex-end; padding-left: 0px; padding-right: 7px; }
+}
+
+@keyframes slide-to-right {
+    from { justify-content: flex-end; }
+    to { justify-content: flex-start; padding-left: 7px; padding-right: 0px; }
+}
+
+.check {
+    background-color: var(--Very-dark-desaturated-blue-toogleKeypad);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    padding-left: 7px;
+    animation: none;
+}
+
+.check-circle {
+    background-color: var(--Red-keyToogle);
+    border-radius: 50%;
+    cursor: pointer;
+    width: 20px;
+}
+
 .response-box {
     background-color: var(--Very-dark-desaturated-blue-screen);
     color: white;

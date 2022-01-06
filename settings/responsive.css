@@ -1,0 +1,10 @@
+@media screen and (max-width: 560px) {
+    main { height: 100vh; }
+    header { height: 10vh; }
+    main div { width: 90%; }
+}
+
+@media screen and (max-width: 400px) {
+    * { font-size: 24px; }
+    .keys { gap: 12px; }
+}
