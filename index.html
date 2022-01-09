@@ -11,7 +11,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-  <script src="js/script.js" defer></script>
+  <script src="js/darkMode.js" defer></script>
+  <script src="js/calc.js" defer></script>
 
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/elements.css">
@@ -33,24 +34,24 @@
         <button class="check-circle"></button>
       </div>
   </div>
-    <div class="response-box"></div>
+    <div class="response-box" contenteditable></div>
     <div class="keys">
-      <button class="numbers-button">7</button>
-      <button class="numbers-button">8</button>
-      <button class="numbers-button">9</button>
+      <button class="numbers-button" value="7" onclick="catchValue(this.value)">7</button>
+      <button class="numbers-button" value="8" onclick="catchValue(this.value)">8</button>
+      <button class="numbers-button" value="9" onclick="catchValue(this.value)">9</button>
       <button class="delete-button">DEL</button>
-      <button class="numbers-button">4</button>
-      <button class="numbers-button">5</button>
-      <button class="numbers-button">6</button>
-      <button class="numbers-button">+</button>
-      <button class="numbers-button">1</button>
-      <button class="numbers-button">2</button>
-      <button class="numbers-button">3</button>
-      <button class="numbers-button">-</button>
-      <button class="numbers-button">.</button>
-      <button class="numbers-button">0</button>
-      <button class="numbers-button">/</button>
-      <button class="numbers-button">x</button>
+      <button class="numbers-button" value="4" onclick="catchValue(this.value)">4</button>
+      <button class="numbers-button" value="5" onclick="catchValue(this.value)">5</button>
+      <button class="numbers-button" value="6" onclick="catchValue(this.value)">6</button>
+      <button class="numbers-button" value="+" onclick="catchValue(this.value)">+</button>
+      <button class="numbers-button" value="1" onclick="catchValue(this.value)">1</button>
+      <button class="numbers-button" value="2" onclick="catchValue(this.value)">2</button>
+      <button class="numbers-button" value="3" onclick="catchValue(this.value)">3</button>
+      <button class="numbers-button" value="-" onclick="catchValue(this.value)">-</button>
+      <button class="numbers-button" value="." onclick="catchValue(this.value)">.</button>
+      <button class="numbers-button" value="0" onclick="catchValue(this.value)">0</button>
+      <button class="numbers-button" value="/" onclick="catchValue(this.value)">/</button>
+      <button class="numbers-button" value="*" onclick="catchValue(this.value)">x</button>
       <button class="reset-button">RESET</button>
       <button class="response-button">=</button>
     </div>
